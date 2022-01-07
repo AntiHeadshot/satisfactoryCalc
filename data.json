@@ -26,6 +26,14 @@
         {
             "id": 7,
             "name": "Blender"
+        },
+        {
+            "id": 8,
+            "name": "Particle Accelerator"
+        },
+        {
+            "id": 9,
+            "name": "Nuclear Power Plant"
         }
     ],
     "items": [{
@@ -2142,6 +2150,82 @@
                 {
                     "item": 58,
                     "count": 6
+                }
+            ]
+        },
+        {
+            "name": "Nuclear Pasta",
+            "isAlternate": false,
+            "duration": 120,
+            "station": 8,
+            "results": [{
+                "item": 70,
+                "count": 1
+            }],
+            "components": [{
+                    "item": 60,
+                    "count": 200
+                },
+                {
+                    "item": 74,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "Plutonium Pellet",
+            "isAlternate": false,
+            "duration": 60,
+            "station": 8,
+            "results": [{
+                "item": 72,
+                "count": 30
+            }],
+            "components": [{
+                    "item": 69,
+                    "count": 100
+                },
+                {
+                    "item": 78,
+                    "count": 25
+                }
+            ]
+        },
+        {
+            "name": "Uranium Waste",
+            "isAlternate": false,
+            "duration": 300,
+            "station": 9,
+            "results": [{
+                "item": 78,
+                "count": 50
+            }],
+            "components": [{
+                    "item": 77,
+                    "count": 1
+                },
+                {
+                    "item": 12,
+                    "count": 1500
+                }
+            ]
+        },
+        {
+            "name": "Plutonium Waste",
+            "isAlternate": false,
+            "duration": 600,
+            "station": 9,
+            "results": [{
+                "item": 73,
+                "count": 10
+            }],
+            "components": [{
+                    "item": 71,
+                    "count": 1
+                },
+                {
+                    "item": 12,
+                    "count": 3000
                 }
             ]
         }
