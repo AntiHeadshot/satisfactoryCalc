@@ -1,0 +1,2148 @@
+{
+    "stations": [{
+            "id": 1,
+            "name": "Smelter"
+        },
+        {
+            "id": 2,
+            "name": "Foundry"
+        },
+        {
+            "id": 3,
+            "name": "Constructor"
+        },
+        {
+            "id": 4,
+            "name": "Assembler"
+        },
+        {
+            "id": 5,
+            "name": "Manufacturer"
+        },
+        {
+            "id": 6,
+            "name": "Refinery"
+        },
+        {
+            "id": 7,
+            "name": "Blender"
+        }
+    ],
+    "items": [{
+            "id": 0,
+            "name": "Bauxite",
+            "stackSize": 100,
+            "sinkValue": 8,
+            "tier": 7
+        },
+        {
+            "id": 1,
+            "name": "Caterium Ore",
+            "stackSize": 100,
+            "sinkValue": 7,
+            "tier": 6
+        },
+        {
+            "id": 2,
+            "name": "Coal",
+            "stackSize": 100,
+            "sinkValue": 3,
+            "tier": 3
+        },
+        {
+            "id": 3,
+            "name": "Copper Ore",
+            "stackSize": 100,
+            "sinkValue": 3,
+            "tier": 0
+        },
+        {
+            "id": 4,
+            "name": "Crude Oil",
+            "tier": 5
+        },
+        {
+            "id": 5,
+            "name": "Iron Ore",
+            "stackSize": 100,
+            "sinkValue": 1,
+            "tier": 0
+        },
+        {
+            "id": 6,
+            "name": "Limestone",
+            "stackSize": 100,
+            "sinkValue": 2,
+            "tier": 0
+        },
+        {
+            "id": 7,
+            "name": "Nitrogen Gas",
+            "tier": 8
+        },
+        {
+            "id": 8,
+            "name": "Raw Quartz",
+            "stackSize": 100,
+            "sinkValue": 15,
+            "tier": 7
+        },
+        {
+            "id": 9,
+            "name": "SAM Ore",
+            "stackSize": 50,
+            "tier": 0
+        },
+        {
+            "id": 10,
+            "name": "Sulfur",
+            "stackSize": 100,
+            "sinkValue": 11,
+            "tier": 7
+        },
+        {
+            "id": 11,
+            "name": "Uranium",
+            "stackSize": 100,
+            "sinkValue": 35,
+            "tier": 8
+        },
+        {
+            "id": 12,
+            "name": "Water",
+            "tier": 3
+        },
+        {
+            "id": 13,
+            "name": "Biomass",
+            "stackSize": 200,
+            "sinkValue": 12,
+            "tier": 0
+        },
+        {
+            "id": 14,
+            "name": "Cable",
+            "stackSize": 200,
+            "sinkValue": 24,
+            "tier": 0
+        },
+        {
+            "id": 15,
+            "name": "Concrete",
+            "stackSize": 500,
+            "sinkValue": 12,
+            "tier": 0
+        },
+        {
+            "id": 16,
+            "name": "Copper Ingot",
+            "stackSize": 100,
+            "sinkValue": 6,
+            "tier": 0
+        },
+        {
+            "id": 17,
+            "name": "Iron Ingot",
+            "stackSize": 100,
+            "sinkValue": 2,
+            "tier": 0
+        },
+        {
+            "id": 18,
+            "name": "Iron Plate",
+            "stackSize": 200,
+            "sinkValue": 6,
+            "tier": 0
+        },
+        {
+            "id": 19,
+            "name": "Iron Rod",
+            "stackSize": 200,
+            "sinkValue": 4,
+            "tier": 0
+        },
+        {
+            "id": 20,
+            "name": "Reinforced Iron Plate",
+            "stackSize": 100,
+            "sinkValue": 120,
+            "tier": 0
+        },
+        {
+            "id": 21,
+            "name": "Screw",
+            "stackSize": 500,
+            "sinkValue": 2,
+            "tier": 0
+        },
+        {
+            "id": 22,
+            "name": "Wire",
+            "stackSize": 500,
+            "sinkValue": 6,
+            "tier": 0
+        },
+        {
+            "id": 23,
+            "name": "Color Cartridge",
+            "stackSize": 200,
+            "sinkValue": 10,
+            "tier": 2
+        },
+        {
+            "id": 24,
+            "name": "Copper Sheet",
+            "stackSize": 200,
+            "sinkValue": 24,
+            "tier": 2
+        },
+        {
+            "id": 25,
+            "name": "Solid Biofuel",
+            "stackSize": 200,
+            "sinkValue": 48,
+            "tier": 2
+        },
+        {
+            "id": 26,
+            "name": "Modular Frame",
+            "stackSize": 50,
+            "sinkValue": 408,
+            "tier": 2
+        },
+        {
+            "id": 27,
+            "name": "Rotor",
+            "stackSize": 100,
+            "sinkValue": 140,
+            "tier": 2
+        },
+        {
+            "id": 28,
+            "name": "Smart Plating",
+            "stackSize": 50,
+            "sinkValue": 520,
+            "tier": 2
+        },
+        {
+            "id": 29,
+            "name": "Steel Beam",
+            "stackSize": 200,
+            "sinkValue": 64,
+            "tier": 3
+        },
+        {
+            "id": 30,
+            "name": "Steel Ingot",
+            "stackSize": 100,
+            "sinkValue": 8,
+            "tier": 3
+        },
+        {
+            "id": 31,
+            "name": "Steel Pipe",
+            "stackSize": 200,
+            "sinkValue": 24,
+            "tier": 3
+        },
+        {
+            "id": 32,
+            "name": "Versatile Framework",
+            "stackSize": 50,
+            "sinkValue": 1176,
+            "tier": 3
+        },
+        {
+            "id": 33,
+            "name": "Automated Wiring",
+            "stackSize": 50,
+            "sinkValue": 1440,
+            "tier": 4
+        },
+        {
+            "id": 34,
+            "name": "Encased Industrial Beam",
+            "stackSize": 100,
+            "sinkValue": 632,
+            "tier": 4
+        },
+        {
+            "id": 35,
+            "name": "Heavy Modular Frame",
+            "stackSize": 50,
+            "sinkValue": 11520,
+            "tier": 4
+        },
+        {
+            "id": 36,
+            "name": "Motor",
+            "stackSize": 50,
+            "sinkValue": 1520,
+            "tier": 4
+        },
+        {
+            "id": 37,
+            "name": "Stator",
+            "stackSize": 100,
+            "sinkValue": 240,
+            "tier": 4
+        },
+        {
+            "id": 38,
+            "name": "Adaptive Control Unit",
+            "stackSize": 50,
+            "sinkValue": 86120,
+            "tier": 5
+        },
+        {
+            "id": 39,
+            "name": "Circuit Board",
+            "stackSize": 200,
+            "sinkValue": 696,
+            "tier": 5
+        },
+        {
+            "id": 40,
+            "name": "Computer",
+            "stackSize": 50,
+            "sinkValue": 17260,
+            "tier": 5
+        },
+        {
+            "id": 41,
+            "name": "Empty Canister",
+            "stackSize": 100,
+            "sinkValue": 60,
+            "tier": 5
+        },
+        {
+            "id": 42,
+            "name": "Fuel",
+            "tier": 5
+        },
+        {
+            "id": 43,
+            "name": "Heavy Oil Residue",
+            "tier": 5
+        },
+        {
+            "id": 44,
+            "name": "Liquid Biofuel",
+            "tier": 5
+        },
+        {
+            "id": 45,
+            "name": "Modular Engine",
+            "stackSize": 50,
+            "sinkValue": 9960,
+            "tier": 5
+        },
+        {
+            "id": 46,
+            "name": "Petroleum Coke",
+            "stackSize": 200,
+            "sinkValue": 20,
+            "tier": 5
+        },
+        {
+            "id": 47,
+            "name": "Plastic",
+            "stackSize": 200,
+            "sinkValue": 75,
+            "tier": 5
+        },
+        {
+            "id": 48,
+            "name": "Polymer Resin",
+            "stackSize": 200,
+            "sinkValue": 12,
+            "tier": 5
+        },
+        {
+            "id": 49,
+            "name": "Rubber",
+            "stackSize": 200,
+            "sinkValue": 60,
+            "tier": 5
+        },
+        {
+            "id": 50,
+            "name": "Alumina Solution",
+            "tier": 7
+        },
+        {
+            "id": 51,
+            "name": "Aluminum Casing",
+            "stackSize": 200,
+            "sinkValue": 393,
+            "tier": 7
+        },
+        {
+            "id": 52,
+            "name": "Alclad Aluminum Sheet",
+            "stackSize": 200,
+            "sinkValue": 266,
+            "tier": 7
+        },
+        {
+            "id": 53,
+            "name": "Aluminum Ingot",
+            "stackSize": 100,
+            "sinkValue": 131,
+            "tier": 7
+        },
+        {
+            "id": 54,
+            "name": "Aluminum Scrap",
+            "stackSize": 500,
+            "sinkValue": 27,
+            "tier": 7
+        },
+        {
+            "id": 55,
+            "name": "Assembly Director System",
+            "stackSize": 50,
+            "sinkValue": 543632,
+            "tier": 7
+        },
+        {
+            "id": 56,
+            "name": "Battery",
+            "stackSize": 200,
+            "sinkValue": 465,
+            "tier": 7
+        },
+        {
+            "id": 57,
+            "name": "Radio Control Unit",
+            "stackSize": 50,
+            "sinkValue": 32908,
+            "tier": 7
+        },
+        {
+            "id": 58,
+            "name": "Sulfuric Acid",
+            "tier": 7
+        },
+        {
+            "id": 59,
+            "name": "Cooling System",
+            "stackSize": 100,
+            "sinkValue": 12006,
+            "tier": 8
+        },
+        {
+            "id": 60,
+            "name": "Copper Powder",
+            "stackSize": 500,
+            "sinkValue": 72,
+            "tier": 8
+        },
+        {
+            "id": 61,
+            "name": "Electromagnetic Control Rod",
+            "stackSize": 100,
+            "sinkValue": 2560,
+            "tier": 8
+        },
+        {
+            "id": 62,
+            "name": "Empty Fluid Tank",
+            "stackSize": 100,
+            "sinkValue": 225,
+            "tier": 8
+        },
+        {
+            "id": 63,
+            "name": "Encased Plutonium Cell",
+            "stackSize": 200,
+            "tier": 8
+        },
+        {
+            "id": 64,
+            "name": "Encased Uranium Cell",
+            "stackSize": 200,
+            "sinkValue": 147,
+            "tier": 8
+        },
+        {
+            "id": 65,
+            "name": "Fused Modular Frame",
+            "stackSize": 50,
+            "sinkValue": 62840,
+            "tier": 8
+        },
+        {
+            "id": 66,
+            "name": "Heat Sink",
+            "stackSize": 100,
+            "sinkValue": 2804,
+            "tier": 8
+        },
+        {
+            "id": 67,
+            "name": "Magnetic Field Generator",
+            "stackSize": 50,
+            "sinkValue": 15650,
+            "tier": 8
+        },
+        {
+            "id": 68,
+            "name": "Nitric Acid",
+            "tier": 8
+        },
+        {
+            "id": 69,
+            "name": "Non-fissile Uranium",
+            "stackSize": 500,
+            "tier": 8
+        },
+        {
+            "id": 70,
+            "name": "Nuclear Pasta",
+            "stackSize": 50,
+            "sinkValue": 543424,
+            "tier": 8
+        },
+        {
+            "id": 71,
+            "name": "Plutonium Fuel Rod",
+            "stackSize": 50,
+            "sinkValue": 153184,
+            "tier": 8
+        },
+        {
+            "id": 72,
+            "name": "Plutonium Pellet",
+            "stackSize": 100,
+            "tier": 8
+        },
+        {
+            "id": 73,
+            "name": "Plutonium Waste",
+            "stackSize": 500,
+            "tier": 8
+        },
+        {
+            "id": 74,
+            "name": "Pressure Conversion Cube",
+            "stackSize": 50,
+            "sinkValue": 257312,
+            "tier": 8
+        },
+        {
+            "id": 75,
+            "name": "Thermal Propulsion Rocket",
+            "stackSize": 50,
+            "sinkValue": 732956,
+            "tier": 8
+        },
+        {
+            "id": 76,
+            "name": "Turbo Motor",
+            "stackSize": 50,
+            "sinkValue": 242720,
+            "tier": 8
+        },
+        {
+            "id": 77,
+            "name": "Uranium Fuel Rod",
+            "stackSize": 50,
+            "sinkValue": 44092,
+            "tier": 8
+        },
+        {
+            "id": 78,
+            "name": "Uranium Waste",
+            "stackSize": 500,
+            "tier": 8
+        },
+        {
+            "id": 79,
+            "name": "AI Limiter",
+            "stackSize": 100,
+            "sinkValue": 920,
+            "tier": "MAM"
+        },
+        {
+            "id": 80,
+            "name": "Biomass",
+            "stackSize": 200,
+            "sinkValue": 12,
+            "tier": "MAM"
+        },
+        {
+            "id": 81,
+            "name": "Black Powder",
+            "stackSize": 100,
+            "sinkValue": 50,
+            "tier": "MAM"
+        },
+        {
+            "id": 82,
+            "name": "Caterium Ingot",
+            "stackSize": 100,
+            "sinkValue": 42,
+            "tier": "MAM"
+        },
+        {
+            "id": 83,
+            "name": "Compacted Coal",
+            "stackSize": 10,
+            "sinkValue": 28,
+            "tier": "MAM"
+        },
+        {
+            "id": 84,
+            "name": "Fabric",
+            "stackSize": 100,
+            "sinkValue": 140,
+            "tier": "MAM"
+        },
+        {
+            "id": 85,
+            "name": "High-Speed Connector",
+            "stackSize": 100,
+            "sinkValue": 3776,
+            "tier": "MAM"
+        },
+        {
+            "id": 86,
+            "name": "Quickwire",
+            "stackSize": 500,
+            "sinkValue": 17,
+            "tier": "MAM"
+        },
+        {
+            "id": 87,
+            "name": "Quartz Crystal",
+            "stackSize": 100,
+            "sinkValue": 50,
+            "tier": "MAM"
+        },
+        {
+            "id": 88,
+            "name": "Silica",
+            "stackSize": 200,
+            "sinkValue": 20,
+            "tier": "MAM"
+        },
+        {
+            "id": 89,
+            "name": "Crystal Oscillator",
+            "stackSize": 100,
+            "sinkValue": 3072,
+            "tier": "MAM"
+        },
+        {
+            "id": 90,
+            "name": "Supercomputer",
+            "stackSize": 50,
+            "sinkValue": 99576,
+            "tier": "MAM"
+        },
+        {
+            "id": 91,
+            "name": "Turbofuel",
+            "tier": "MAM"
+        },
+        {
+            "id": 92,
+            "name": "Nobelisk",
+            "stackSize": 50,
+            "sinkValue": 980,
+            "tier": "MAM"
+        },
+        {
+            "id": 93,
+            "name": "Gas Filter",
+            "stackSize": 50,
+            "sinkValue": 830,
+            "tier": 5
+        },
+        {
+            "id": 94,
+            "name": "Iodine Infused Filter",
+            "stackSize": 50,
+            "sinkValue": 2718,
+            "tier": 7
+        },
+        {
+            "id": 95,
+            "name": "Beacon",
+            "stackSize": 100,
+            "sinkValue": 320,
+            "tier": 1
+        },
+        {
+            "id": 96,
+            "name": "Rifle Cartridge",
+            "stackSize": 100,
+            "sinkValue": 664,
+            "tier": "MAM"
+        }
+    ],
+    "recipes": [{
+            "name": "Aluminum Casing",
+            "isAlternate": false,
+            "duration": 2,
+            "station": 3,
+            "results": [{
+                "item": 51,
+                "count": 2
+            }],
+            "components": [{
+                "item": 53,
+                "count": 3
+            }]
+        },
+        {
+            "name": "Cable",
+            "isAlternate": false,
+            "duration": 2,
+            "station": 3,
+            "results": [{
+                "item": 14,
+                "count": 1
+            }],
+            "components": [{
+                "item": 22,
+                "count": 2
+            }]
+        },
+        {
+            "name": "Concrete",
+            "isAlternate": false,
+            "duration": 4,
+            "station": 3,
+            "results": [{
+                "item": 15,
+                "count": 1
+            }],
+            "components": [{
+                "item": 6,
+                "count": 3
+            }]
+        },
+        {
+            "name": "Copper Powder",
+            "isAlternate": false,
+            "duration": 6,
+            "station": 3,
+            "results": [{
+                "item": 60,
+                "count": 5
+            }],
+            "components": [{
+                "item": 16,
+                "count": 30
+            }]
+        },
+        {
+            "name": "Copper Sheet",
+            "isAlternate": false,
+            "duration": 6,
+            "station": 3,
+            "results": [{
+                "item": 24,
+                "count": 1
+            }],
+            "components": [{
+                "item": 16,
+                "count": 2
+            }]
+        },
+        {
+            "name": "Empty Canister",
+            "isAlternate": false,
+            "duration": 4,
+            "station": 3,
+            "results": [{
+                "item": 41,
+                "count": 4
+            }],
+            "components": [{
+                "item": 47,
+                "count": 2
+            }]
+        },
+        {
+            "name": "Iron Plate",
+            "isAlternate": false,
+            "duration": 6,
+            "station": 3,
+            "results": [{
+                "item": 18,
+                "count": 2
+            }],
+            "components": [{
+                "item": 17,
+                "count": 3
+            }]
+        },
+        {
+            "name": "Iron Rod",
+            "isAlternate": false,
+            "duration": 4,
+            "station": 3,
+            "results": [{
+                "item": 19,
+                "count": 1
+            }],
+            "components": [{
+                "item": 17,
+                "count": 1
+            }]
+        },
+        {
+            "name": "Quartz Crystal",
+            "isAlternate": false,
+            "duration": 8,
+            "station": 3,
+            "results": [{
+                "item": 87,
+                "count": 3
+            }],
+            "components": [{
+                "item": 8,
+                "count": 5
+            }]
+        },
+        {
+            "name": "Quickwire",
+            "isAlternate": false,
+            "duration": 5,
+            "station": 3,
+            "results": [{
+                "item": 86,
+                "count": 5
+            }],
+            "components": [{
+                "item": 82,
+                "count": 1
+            }]
+        },
+        {
+            "name": "Screw",
+            "isAlternate": false,
+            "duration": 6,
+            "station": 3,
+            "results": [{
+                "item": 21,
+                "count": 4
+            }],
+            "components": [{
+                "item": 19,
+                "count": 1
+            }]
+        },
+        {
+            "name": "Silica",
+            "isAlternate": false,
+            "duration": 8,
+            "station": 3,
+            "results": [{
+                "item": 88,
+                "count": 5
+            }],
+            "components": [{
+                "item": 8,
+                "count": 3
+            }]
+        },
+        {
+            "name": "Solid Biofuel",
+            "isAlternate": false,
+            "duration": 4,
+            "station": 3,
+            "results": [{
+                "item": 25,
+                "count": 4
+            }],
+            "components": [{
+                "item": 13,
+                "count": 8
+            }]
+        },
+        {
+            "name": "Steel Beam",
+            "isAlternate": false,
+            "duration": 4,
+            "station": 3,
+            "results": [{
+                "item": 29,
+                "count": 1
+            }],
+            "components": [{
+                "item": 30,
+                "count": 4
+            }]
+        },
+        {
+            "name": "Steel Pipe",
+            "isAlternate": false,
+            "duration": 6,
+            "station": 3,
+            "results": [{
+                "item": 31,
+                "count": 2
+            }],
+            "components": [{
+                "item": 30,
+                "count": 3
+            }]
+        },
+        {
+            "name": "Wire",
+            "isAlternate": false,
+            "duration": 4,
+            "station": 3,
+            "results": [{
+                "item": 22,
+                "count": 2
+            }],
+            "components": [{
+                "item": 16,
+                "count": 1
+            }]
+        },
+        {
+            "name": "Caterium Ingot",
+            "isAlternate": false,
+            "duration": 4,
+            "station": 1,
+            "results": [{
+                "item": 82,
+                "count": 1
+            }],
+            "components": [{
+                "item": 1,
+                "count": 3
+            }]
+        },
+        {
+            "name": "Copper Ingot",
+            "isAlternate": false,
+            "duration": 2,
+            "station": 1,
+            "results": [{
+                "item": 16,
+                "count": 1
+            }],
+            "components": [{
+                "item": 3,
+                "count": 1
+            }]
+        },
+        {
+            "name": "Iron Ingot",
+            "isAlternate": false,
+            "duration": 2,
+            "station": 1,
+            "results": [{
+                "item": 17,
+                "count": 1
+            }],
+            "components": [{
+                "item": 5,
+                "count": 1
+            }]
+        },
+        {
+            "name": "Aluminum Ingot",
+            "isAlternate": false,
+            "duration": 4,
+            "station": 2,
+            "results": [{
+                "item": 53,
+                "count": 4
+            }],
+            "components": [{
+                    "item": 54,
+                    "count": 6
+                },
+                {
+                    "item": 88,
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "name": "Steel Ingot",
+            "isAlternate": false,
+            "duration": 4,
+            "station": 2,
+            "results": [{
+                "item": 30,
+                "count": 3
+            }],
+            "components": [{
+                    "item": 5,
+                    "count": 3
+                },
+                {
+                    "item": 2,
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "AI Limiter",
+            "isAlternate": false,
+            "duration": 12,
+            "station": 4,
+            "results": [{
+                "item": 79,
+                "count": 1
+            }],
+            "components": [{
+                    "item": 24,
+                    "count": 5
+                },
+                {
+                    "item": 86,
+                    "count": 30
+                }
+            ]
+        },
+        {
+            "name": "Alclad Aluminum Sheet",
+            "isAlternate": false,
+            "duration": 6,
+            "station": 4,
+            "results": [{
+                "item": 52,
+                "count": 3
+            }],
+            "components": [{
+                    "item": 53,
+                    "count": 3
+                },
+                {
+                    "item": 16,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "Assembly Director System",
+            "isAlternate": false,
+            "duration": 80,
+            "station": 4,
+            "results": [{
+                "item": 55,
+                "count": 1
+            }],
+            "components": [{
+                    "item": 38,
+                    "count": 2
+                },
+                {
+                    "item": 90,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "Automated Wiring",
+            "isAlternate": false,
+            "duration": 24,
+            "station": 4,
+            "results": [{
+                "item": 33,
+                "count": 1
+            }],
+            "components": [{
+                    "item": 37,
+                    "count": 1
+                },
+                {
+                    "item": 14,
+                    "count": 20
+                }
+            ]
+        },
+        {
+            "name": "Black Powder",
+            "isAlternate": false,
+            "duration": 8,
+            "station": 4,
+            "results": [{
+                "item": 81,
+                "count": 1
+            }],
+            "components": [{
+                    "item": 2,
+                    "count": 1
+                },
+                {
+                    "item": 10,
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "Circuit Board",
+            "isAlternate": false,
+            "duration": 8,
+            "station": 4,
+            "results": [{
+                "item": 39,
+                "count": 1
+            }],
+            "components": [{
+                    "item": 24,
+                    "count": 2
+                },
+                {
+                    "item": 47,
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "name": "Electromagnetic Control Rod",
+            "isAlternate": false,
+            "duration": 30,
+            "station": 4,
+            "results": [{
+                "item": 61,
+                "count": 2
+            }],
+            "components": [{
+                    "item": 37,
+                    "count": 3
+                },
+                {
+                    "item": 79,
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "Encased Industrial Beam",
+            "isAlternate": false,
+            "duration": 10,
+            "station": 4,
+            "results": [{
+                "item": 34,
+                "count": 1
+            }],
+            "components": [{
+                    "item": 29,
+                    "count": 4
+                },
+                {
+                    "item": 15,
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "name": "Encased Plutonium Cell",
+            "isAlternate": false,
+            "duration": 12,
+            "station": 4,
+            "results": [{
+                "item": 63,
+                "count": 1
+            }],
+            "components": [{
+                    "item": 72,
+                    "count": 2
+                },
+                {
+                    "item": 15,
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "name": "Heat Sink",
+            "isAlternate": false,
+            "duration": 8,
+            "station": 4,
+            "results": [{
+                "item": 66,
+                "count": 1
+            }],
+            "components": [{
+                    "item": 52,
+                    "count": 5
+                },
+                {
+                    "item": 24,
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "Modular Frame",
+            "isAlternate": false,
+            "duration": 60,
+            "station": 4,
+            "results": [{
+                "item": 26,
+                "count": 2
+            }],
+            "components": [{
+                    "item": 20,
+                    "count": 3
+                },
+                {
+                    "item": 19,
+                    "count": 12
+                }
+            ]
+        },
+        {
+            "name": "Motor",
+            "isAlternate": false,
+            "duration": 12,
+            "station": 4,
+            "results": [{
+                "item": 36,
+                "count": 1
+            }],
+            "components": [{
+                    "item": 27,
+                    "count": 2
+                },
+                {
+                    "item": 37,
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "Nobelisk",
+            "isAlternate": false,
+            "duration": 20,
+            "station": 4,
+            "results": [{
+                "item": 92,
+                "count": 1
+            }],
+            "components": [{
+                    "item": 81,
+                    "count": 5
+                },
+                {
+                    "item": 31,
+                    "count": 10
+                }
+            ]
+        },
+        {
+            "name": "Pressure Conversion Cube",
+            "isAlternate": false,
+            "duration": 60,
+            "station": 4,
+            "results": [{
+                "item": 74,
+                "count": 1
+            }],
+            "components": [{
+                    "item": 65,
+                    "count": 1
+                },
+                {
+                    "item": 57,
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "Reinforced Iron Plate",
+            "isAlternate": false,
+            "duration": 12,
+            "station": 4,
+            "results": [{
+                "item": 20,
+                "count": 1
+            }],
+            "components": [{
+                    "item": 18,
+                    "count": 6
+                },
+                {
+                    "item": 21,
+                    "count": 12
+                }
+            ]
+        },
+        {
+            "name": "Rotor",
+            "isAlternate": false,
+            "duration": 15,
+            "station": 4,
+            "results": [{
+                "item": 27,
+                "count": 1
+            }],
+            "components": [{
+                    "item": 19,
+                    "count": 5
+                },
+                {
+                    "item": 21,
+                    "count": 25
+                }
+            ]
+        },
+        {
+            "name": "Smart Plating",
+            "isAlternate": false,
+            "duration": 30,
+            "station": 4,
+            "results": [{
+                "item": 28,
+                "count": 1
+            }],
+            "components": [{
+                    "item": 20,
+                    "count": 1
+                },
+                {
+                    "item": 27,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "Stator",
+            "isAlternate": false,
+            "duration": 12,
+            "station": 4,
+            "results": [{
+                "item": 37,
+                "count": 1
+            }],
+            "components": [{
+                    "item": 31,
+                    "count": 3
+                },
+                {
+                    "item": 22,
+                    "count": 8
+                }
+            ]
+        },
+        {
+            "name": "Versatile Framework",
+            "isAlternate": false,
+            "duration": 24,
+            "station": 4,
+            "results": [{
+                "item": 32,
+                "count": 2
+            }],
+            "components": [{
+                    "item": 26,
+                    "count": 1
+                },
+                {
+                    "item": 29,
+                    "count": 12
+                }
+            ]
+        },
+        {
+            "name": "Adaptive Control Unit",
+            "isAlternate": false,
+            "duration": 120,
+            "station": 5,
+            "results": [{
+                "item": 38,
+                "count": 2
+            }],
+            "components": [{
+                    "item": 33,
+                    "count": 15
+                },
+                {
+                    "item": 39,
+                    "count": 10
+                },
+                {
+                    "item": 35,
+                    "count": 2
+                },
+                {
+                    "item": 40,
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "Beacon",
+            "isAlternate": false,
+            "duration": 8,
+            "station": 5,
+            "results": [{
+                "item": 95,
+                "count": 1
+            }],
+            "components": [{
+                    "item": 18,
+                    "count": 3
+                },
+                {
+                    "item": 19,
+                    "count": 1
+                },
+                {
+                    "item": 22,
+                    "count": 15
+                },
+                {
+                    "item": 14,
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "Computer",
+            "isAlternate": false,
+            "duration": 24,
+            "station": 5,
+            "results": [{
+                "item": 40,
+                "count": 1
+            }],
+            "components": [{
+                    "item": 39,
+                    "count": 10
+                },
+                {
+                    "item": 14,
+                    "count": 9
+                },
+                {
+                    "item": 47,
+                    "count": 18
+                },
+                {
+                    "item": 21,
+                    "count": 52
+                }
+            ]
+        },
+        {
+            "name": "Crystal Oscillator",
+            "isAlternate": false,
+            "duration": 120,
+            "station": 5,
+            "results": [{
+                "item": 89,
+                "count": 2
+            }],
+            "components": [{
+                    "item": 87,
+                    "count": 36
+                },
+                {
+                    "item": 14,
+                    "count": 28
+                },
+                {
+                    "item": 20,
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "name": "Gas Filter",
+            "isAlternate": false,
+            "duration": 8,
+            "station": 5,
+            "results": [{
+                "item": 93,
+                "count": 1
+            }],
+            "components": [{
+                    "item": 2,
+                    "count": 5
+                },
+                {
+                    "item": 49,
+                    "count": 2
+                },
+                {
+                    "item": 84,
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "Heavy Modular Frame",
+            "isAlternate": false,
+            "duration": 30,
+            "station": 5,
+            "results": [{
+                "item": 35,
+                "count": 1
+            }],
+            "components": [{
+                    "item": 26,
+                    "count": 5
+                },
+                {
+                    "item": 31,
+                    "count": 15
+                },
+                {
+                    "item": 34,
+                    "count": 5
+                },
+                {
+                    "item": 21,
+                    "count": 100
+                }
+            ]
+        },
+        {
+            "name": "High-Speed Connector",
+            "isAlternate": false,
+            "duration": 16,
+            "station": 5,
+            "results": [{
+                "item": 85,
+                "count": 1
+            }],
+            "components": [{
+                    "item": 86,
+                    "count": 56
+                },
+                {
+                    "item": 14,
+                    "count": 10
+                },
+                {
+                    "item": 39,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "Iodine Infused Filter",
+            "isAlternate": false,
+            "duration": 16,
+            "station": 5,
+            "results": [{
+                "item": 94,
+                "count": 1
+            }],
+            "components": [{
+                    "item": 93,
+                    "count": 1
+                },
+                {
+                    "item": 86,
+                    "count": 8
+                },
+                {
+                    "item": 51,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "Magnetic Field Generator",
+            "isAlternate": false,
+            "duration": 120,
+            "station": 5,
+            "results": [{
+                "item": 67,
+                "count": 2
+            }],
+            "components": [{
+                    "item": 32,
+                    "count": 5
+                },
+                {
+                    "item": 61,
+                    "count": 2
+                },
+                {
+                    "item": 56,
+                    "count": 10
+                }
+            ]
+        },
+        {
+            "name": "Modular Engine",
+            "isAlternate": false,
+            "duration": 60,
+            "station": 5,
+            "results": [{
+                "item": 45,
+                "count": 1
+            }],
+            "components": [{
+                    "item": 36,
+                    "count": 2
+                },
+                {
+                    "item": 49,
+                    "count": 15
+                },
+                {
+                    "item": 28,
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "Plutonium Fuel Rod",
+            "isAlternate": false,
+            "duration": 240,
+            "station": 5,
+            "results": [{
+                "item": 71,
+                "count": 1
+            }],
+            "components": [{
+                    "item": 63,
+                    "count": 30
+                },
+                {
+                    "item": 29,
+                    "count": 18
+                },
+                {
+                    "item": 61,
+                    "count": 6
+                },
+                {
+                    "item": 66,
+                    "count": 10
+                }
+            ]
+        },
+        {
+            "name": "Radio Control Unit",
+            "isAlternate": false,
+            "duration": 48,
+            "station": 5,
+            "results": [{
+                "item": 57,
+                "count": 2
+            }],
+            "components": [{
+                    "item": 51,
+                    "count": 32
+                },
+                {
+                    "item": 89,
+                    "count": 1
+                },
+                {
+                    "item": 40,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "Rifle Cartridge",
+            "isAlternate": false,
+            "duration": 20,
+            "station": 5,
+            "results": [{
+                "item": 96,
+                "count": 5
+            }],
+            "components": [{
+                    "item": 95,
+                    "count": 1
+                },
+                {
+                    "item": 31,
+                    "count": 10
+                },
+                {
+                    "item": 81,
+                    "count": 10
+                },
+                {
+                    "item": 49,
+                    "count": 10
+                }
+            ]
+        },
+        {
+            "name": "Supercomputer",
+            "isAlternate": false,
+            "duration": 32,
+            "station": 5,
+            "results": [{
+                "item": 90,
+                "count": 1
+            }],
+            "components": [{
+                    "item": 40,
+                    "count": 2
+                },
+                {
+                    "item": 79,
+                    "count": 2
+                },
+                {
+                    "item": 85,
+                    "count": 3
+                },
+                {
+                    "item": 47,
+                    "count": 28
+                }
+            ]
+        },
+        {
+            "name": "Thermal Propulsion Rocket",
+            "isAlternate": false,
+            "duration": 120,
+            "station": 5,
+            "results": [{
+                "item": 75,
+                "count": 2
+            }],
+            "components": [{
+                    "item": 45,
+                    "count": 5
+                },
+                {
+                    "item": 76,
+                    "count": 2
+                },
+                {
+                    "item": 59,
+                    "count": 6
+                },
+                {
+                    "item": 65,
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "Turbo Motor",
+            "isAlternate": false,
+            "duration": 32,
+            "station": 5,
+            "results": [{
+                "item": 76,
+                "count": 1
+            }],
+            "components": [{
+                    "item": 59,
+                    "count": 4
+                },
+                {
+                    "item": 57,
+                    "count": 2
+                },
+                {
+                    "item": 36,
+                    "count": 4
+                },
+                {
+                    "item": 49,
+                    "count": 24
+                }
+            ]
+        },
+        {
+            "name": "Uranium Fuel Rod",
+            "isAlternate": false,
+            "duration": 150,
+            "station": 5,
+            "results": [{
+                "item": 77,
+                "count": 1
+            }],
+            "components": [{
+                    "item": 64,
+                    "count": 50
+                },
+                {
+                    "item": 34,
+                    "count": 3
+                },
+                {
+                    "item": 61,
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "name": "Alumina Solution",
+            "isAlternate": false,
+            "duration": 6,
+            "station": 6,
+            "results": [{
+                    "item": 50,
+                    "count": 12
+                },
+                {
+                    "item": 88,
+                    "count": 5
+                }
+            ],
+            "components": [{
+                    "item": 0,
+                    "count": 12
+                },
+                {
+                    "item": 12,
+                    "count": 18
+                }
+            ]
+        },
+        {
+            "name": "Aluminum Scrap",
+            "isAlternate": false,
+            "duration": 1,
+            "station": 6,
+            "results": [{
+                    "item": 54,
+                    "count": 6
+                },
+                {
+                    "item": 12,
+                    "count": 2
+                }
+            ],
+            "components": [{
+                    "item": 50,
+                    "count": 4
+                },
+                {
+                    "item": 2,
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "Fuel",
+            "isAlternate": false,
+            "duration": 6,
+            "station": 6,
+            "results": [{
+                    "item": 42,
+                    "count": 4
+                },
+                {
+                    "item": 48,
+                    "count": 3
+                }
+            ],
+            "components": [{
+                "item": 4,
+                "count": 6
+            }]
+        },
+        {
+            "name": "Liquid Biofuel",
+            "isAlternate": false,
+            "duration": 4,
+            "station": 6,
+            "results": [{
+                "item": 44,
+                "count": 4
+            }],
+            "components": [{
+                    "item": 25,
+                    "count": 6
+                },
+                {
+                    "item": 12,
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "name": "Petroleum Coke",
+            "isAlternate": false,
+            "duration": 6,
+            "station": 6,
+            "results": [{
+                "item": 46,
+                "count": 12
+            }],
+            "components": [{
+                "item": 43,
+                "count": 4
+            }]
+        },
+        {
+            "name": "Plastic",
+            "isAlternate": false,
+            "duration": 6,
+            "station": 6,
+            "results": [{
+                    "item": 47,
+                    "count": 2
+                },
+                {
+                    "item": 43,
+                    "count": 1
+                }
+            ],
+            "components": [{
+                "item": 4,
+                "count": 3
+            }]
+        },
+        {
+            "name": "Residual Fuel",
+            "isAlternate": false,
+            "duration": 6,
+            "station": 6,
+            "results": [{
+                "item": 42,
+                "count": 4
+            }],
+            "components": [{
+                "item": 43,
+                "count": 6
+            }]
+        },
+        {
+            "name": "Residual Plastic",
+            "isAlternate": false,
+            "duration": 6,
+            "station": 6,
+            "results": [{
+                "item": 47,
+                "count": 2
+            }],
+            "components": [{
+                    "item": 48,
+                    "count": 6
+                },
+                {
+                    "item": 12,
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "name": "Residual Rubber",
+            "isAlternate": false,
+            "duration": 6,
+            "station": 6,
+            "results": [{
+                "item": 49,
+                "count": 2
+            }],
+            "components": [{
+                    "item": 48,
+                    "count": 4
+                },
+                {
+                    "item": 12,
+                    "count": 4
+                }
+            ]
+        },
+        {
+            "name": "Rubber",
+            "isAlternate": false,
+            "duration": 6,
+            "station": 6,
+            "results": [{
+                    "item": 49,
+                    "count": 2
+                },
+                {
+                    "item": 43,
+                    "count": 2
+                }
+            ],
+            "components": [{
+                "item": 4,
+                "count": 3
+            }]
+        },
+        {
+            "name": "Sulfuric Acid",
+            "isAlternate": false,
+            "duration": 6,
+            "station": 6,
+            "results": [{
+                "item": 58,
+                "count": 5
+            }],
+            "components": [{
+                    "item": 10,
+                    "count": 5
+                },
+                {
+                    "item": 12,
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "name": "Battery",
+            "isAlternate": false,
+            "duration": 3,
+            "station": 7,
+            "results": [{
+                    "item": 56,
+                    "count": 1
+                },
+                {
+                    "item": 12,
+                    "count": 1.5
+                }
+            ],
+            "components": [{
+                    "item": 58,
+                    "count": 2.5
+                },
+                {
+                    "item": 50,
+                    "count": 2
+                },
+                {
+                    "item": 51,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "Cooling System",
+            "isAlternate": false,
+            "duration": 10,
+            "station": 7,
+            "results": [{
+                "item": 59,
+                "count": 1
+            }],
+            "components": [{
+                    "item": 66,
+                    "count": 2
+                },
+                {
+                    "item": 49,
+                    "count": 2
+                },
+                {
+                    "item": 12,
+                    "count": 5
+                },
+                {
+                    "item": 7,
+                    "count": 25
+                }
+            ]
+        },
+        {
+            "name": "Encased Uranium Cell",
+            "isAlternate": false,
+            "duration": 12,
+            "station": 7,
+            "results": [{
+                    "item": 64,
+                    "count": 5
+                },
+                {
+                    "item": 58,
+                    "count": 2
+                }
+            ],
+            "components": [{
+                    "item": 11,
+                    "count": 10
+                },
+                {
+                    "item": 15,
+                    "count": 3
+                },
+                {
+                    "item": 58,
+                    "count": 8
+                }
+            ]
+        },
+        {
+            "name": "Fused Modular Frame",
+            "isAlternate": false,
+            "duration": 40,
+            "station": 7,
+            "results": [{
+                "item": 65,
+                "count": 1
+            }],
+            "components": [{
+                    "item": 35,
+                    "count": 1
+                },
+                {
+                    "item": 51,
+                    "count": 50
+                },
+                {
+                    "item": 7,
+                    "count": 25
+                }
+            ]
+        },
+        {
+            "name": "Nitric Acid",
+            "isAlternate": false,
+            "duration": 6,
+            "station": 7,
+            "results": [{
+                "item": 68,
+                "count": 3
+            }],
+            "components": [{
+                    "item": 7,
+                    "count": 12
+                },
+                {
+                    "item": 12,
+                    "count": 3
+                },
+                {
+                    "item": 18,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "name": "Non-fissile Uranium",
+            "isAlternate": false,
+            "duration": 24,
+            "station": 7,
+            "results": [{
+                    "item": 69,
+                    "count": 20
+                },
+                {
+                    "item": 12,
+                    "count": 6
+                }
+            ],
+            "components": [{
+                    "item": 78,
+                    "count": 15
+                },
+                {
+                    "item": 88,
+                    "count": 10
+                },
+                {
+                    "item": 68,
+                    "count": 6
+                },
+                {
+                    "item": 58,
+                    "count": 6
+                }
+            ]
+        }
+    ]
+}

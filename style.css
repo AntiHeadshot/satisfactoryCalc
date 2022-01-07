@@ -1,0 +1,49 @@
+/* Styles go here */
+
+body {
+  font-family: calibri;
+  font-size: 12px;
+  background-color: #141414;
+  color: white;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.border {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+.top {
+  vertical-align: top;
+}
+
+.nobr {
+  white-space: nowrap
+}
+
+.itemImage {
+  width: 64px;
+  height: 64px;
+}
+
+.itemImageSmall {
+  width: 16px;
+  height: 16px;
+}
+
+.item {
+  position: relative;
+}
+
+.item > span {
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  min-width: 20px;
+  border-radius: 4px;
+  border: 1px solid white;
+  background-color: rgba(0, 0, 0, 0.2);
+}

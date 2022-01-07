@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script data-require="vue.js@2.6.10" data-semver="2.6.10" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.js"></script>
+    <script type="module" src="selectionControl.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script type="text/x-template" id="item-template">
+        <div style="text-align: center;">
+            <div class="item">
+                <img class="itemImage" :alt="item.name" :src="item.image" />
+                <span>{{count | round(1)}}</span>
+            </div>
+            <div class="inline border nobr" v-if="showRecipe && item.recipe">
+                <satisfactory-recipe class="recipe" :recipe="item.recipe" :item="item" :items="items" :count="count"></satisfactory-recipe>
+            </div>
+        </div>
+    </script>
+
+    <script type="text/x-template" id="recipe-template">
+        <div>
+            <div>{{count/recipe.results[item.id]*recipe.duration/0.6 | round(1)}}% ({{60/recipe.duration * recipe.results[item.id] | round(1)}}/min)</div>
+            <div class="inline top nobr" v-for="(itemCount,id) in recipe.components" :key="id">
+                <satisfactory-item class="item standUp" :item="items[id]" :items="items" :show-recipe="true" :count="itemCount*count/recipe.results[item.id]"></satisfactory-item>
+            </div>
+        </div>
+    </script>
+
+    <script type="text/x-template" id="recipe-sum-template">
+        <div>
+            <div>
+                {{count | round(1)}}
+            </div>
+            <div class="inline border nobr">
+                <satisfactory-item class="item inline" v-for="component of components" :key="component.item.id" :item="component.item" :count="component.count"></satisfactory-item>
+            </div>
+        </div>
+    </script>
+
+</head>
+
+<body>
+    <div id="main" class="nobr">
+        <span v-if="!loaded">loading...</span>
+        <div v-if="loaded">
+            <input type="number" style="width: 42px;" v-model.number="count" />
+            <br/>
+            <selection-control class="inline top" :items="items" :selected-item.sync="selectedItem">
+                <template v-slot:itemtemplate="props">
+          <img class="itemImageSmall" :src="props.item.image" /> {{ props.item.name }}
+        </template>
+            </selection-control>
+            <div class="inline top">
+                <div v-if="selectedItem">
+                    <div>
+                        <satisfactory-item class="item standUp" :item="selectedItem" :items="items" :show-recipe="true" :count="count"></satisfactory-item>
+                    </div>
+                    <div>
+                        <span>Summed up base Items</span>
+                        <satisfactory-recipe-sum class="recipeSum" :item="selectedItem" :count="count"></satisfactory-recipe-sum>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
