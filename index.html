@@ -48,7 +48,7 @@
     <div id="main" class="nobr">
         <span v-if="!loaded">loading...</span>
         <div v-if="loaded">
-            <input type="number" style="width: 42px;" v-model.number="count" />
+            <input type="number" min="0" style="width: 42px;" v-model.number="count" />
             <br/>
             <selection-control class="inline top" :width="180" :items="items" :selected-item.sync="selectedItem">
                 <template v-slot:itemtemplate="props">
