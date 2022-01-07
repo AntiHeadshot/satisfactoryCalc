@@ -110,7 +110,8 @@
         {
             "id": 12,
             "name": "Water",
-            "tier": 3
+            "tier": 3,
+            "isPrimary": true
         },
         {
             "id": 13,
@@ -1927,25 +1928,6 @@
             ]
         },
         {
-            "name": "Residual Rubber",
-            "isAlternate": false,
-            "duration": 6,
-            "station": 6,
-            "results": [{
-                "item": 49,
-                "count": 2
-            }],
-            "components": [{
-                    "item": 48,
-                    "count": 4
-                },
-                {
-                    "item": 12,
-                    "count": 4
-                }
-            ]
-        },
-        {
             "name": "Rubber",
             "isAlternate": false,
             "duration": 6,
@@ -1963,6 +1945,25 @@
                 "item": 4,
                 "count": 3
             }]
+        },
+        {
+            "name": "Residual Rubber",
+            "isAlternate": false,
+            "duration": 6,
+            "station": 6,
+            "results": [{
+                "item": 49,
+                "count": 2
+            }],
+            "components": [{
+                    "item": 48,
+                    "count": 4
+                },
+                {
+                    "item": 12,
+                    "count": 4
+                }
+            ]
         },
         {
             "name": "Sulfuric Acid",

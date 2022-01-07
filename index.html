@@ -10,20 +10,23 @@
     <script type="text/x-template" id="item-template">
         <div style="text-align: center;">
             <div class="item">
-                <img class="itemImage" :alt="item.name" :src="item.image" />
+                <img class="itemImage" :title="item.name" :src="item.image" />
                 <span>{{count | round(1)}}</span>
             </div>
-            <div class="inline border nobr" v-if="showRecipe && item.recipe">
-                <satisfactory-recipe class="recipe" :recipe="item.recipe" :item="item" :items="items" :count="count"></satisfactory-recipe>
+            <div class="inline border nobr" v-if="!item.isPrimary && showRecipe && item.recipe && !itemTree.includes(item.id)">
+                <satisfactory-recipe class="recipe" :recipe="item.recipe" :item="item" :items="items" :count="count" :itemTree="itemTree.concat(item.id)"></satisfactory-recipe>
             </div>
         </div>
     </script>
 
     <script type="text/x-template" id="recipe-template">
         <div>
-            <div>{{count/recipe.results[item.id]*recipe.duration/0.6 | round(1)}}% ({{60/recipe.duration * recipe.results[item.id] | round(1)}}/min)</div>
+            <div :title="recipe.station.name + ' ('+Math.round(60/recipe.duration * recipe.results[item.id])+'/min)'">
+                <img :src="recipe.station.image" class="itemImageTiny" />
+                <span>{{count/recipe.results[item.id]*recipe.duration/0.6 | round(1)}}%</span>
+            </div>
             <div class="inline top nobr" v-for="(itemCount,id) in recipe.components" :key="id">
-                <satisfactory-item class="item standUp" :item="items[id]" :items="items" :show-recipe="true" :count="itemCount*count/recipe.results[item.id]"></satisfactory-item>
+                <satisfactory-item class="item standUp" :item="items[id]" :items="items" :show-recipe="true" :count="itemCount*count/recipe.results[item.id]" :itemTree="itemTree"></satisfactory-item>
             </div>
         </div>
     </script>
@@ -34,7 +37,7 @@
                 {{count | round(1)}}
             </div>
             <div class="inline border nobr">
-                <satisfactory-item class="item inline" v-for="component of components" :key="component.item.id" :item="component.item" :count="component.count"></satisfactory-item>
+                <satisfactory-item class="item inline" v-for="(amount, id) in components" :key="id" :item="items[id]" :count="amount"></satisfactory-item>
             </div>
         </div>
     </script>
@@ -47,10 +50,12 @@
         <div v-if="loaded">
             <input type="number" style="width: 42px;" v-model.number="count" />
             <br/>
-            <selection-control class="inline top" :items="items" :selected-item.sync="selectedItem">
+            <selection-control class="inline top" :width="180" :items="items" :selected-item.sync="selectedItem">
                 <template v-slot:itemtemplate="props">
-          <img class="itemImageSmall" :src="props.item.image" /> {{ props.item.name }}
-        </template>
+                  <div class="item border">
+                    <img class="itemImageSmall" :src="props.item.image" :title="props.item.name" />
+                  </div>
+                </template>
             </selection-control>
             <div class="inline top">
                 <div v-if="selectedItem">
@@ -59,7 +64,7 @@
                     </div>
                     <div>
                         <span>Summed up base Items</span>
-                        <satisfactory-recipe-sum class="recipeSum" :item="selectedItem" :count="count"></satisfactory-recipe-sum>
+                        <satisfactory-recipe-sum class="recipeSum" :item="selectedItem" :items="items" :count="count"></satisfactory-recipe-sum>
                     </div>
                 </div>
             </div>

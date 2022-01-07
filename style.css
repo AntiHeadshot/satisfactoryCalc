@@ -1,49 +1,57 @@
 /* Styles go here */
 
 body {
-  font-family: calibri;
-  font-size: 12px;
-  background-color: #141414;
-  color: white;
+    font-family: calibri;
+    font-size: 12px;
+    background-color: #141414;
+    color: white;
 }
 
 .inline {
-  display: inline-block;
+    display: inline-block;
 }
 
 .border {
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.075);
+    border-radius: 32px;
+    margin: 2px;
 }
 
 .top {
-  vertical-align: top;
+    vertical-align: top;
 }
 
 .nobr {
-  white-space: nowrap
+    white-space: nowrap
 }
 
 .itemImage {
-  width: 64px;
-  height: 64px;
+    width: 64px;
+    height: 64px;
 }
 
 .itemImageSmall {
-  width: 16px;
-  height: 16px;
+    width: 32px;
+    height: 32px;
+}
+
+.itemImageTiny {
+    width: 24px;
+    height: 24px;
+    margin-left: -18px;
+    margin-bottom: -9px;
 }
 
 .item {
-  position: relative;
+    position: relative;
 }
 
-.item > span {
-  position: absolute;
-  right: 4px;
-  bottom: 4px;
-  min-width: 20px;
-  border-radius: 4px;
-  border: 1px solid white;
-  background-color: rgba(0, 0, 0, 0.2);
+.item>span {
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+    min-width: 20px;
+    border-radius: 4px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.2);
 }

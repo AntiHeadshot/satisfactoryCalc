@@ -1,13 +1,16 @@
 export default {
-  template: `
-    <ul style="list-style-type: none;margin: 0;padding: 0;">
-     <li v-for="item in items" :key="item.id" v-on:click="$emit('update:selected-item', item)" style="cursor:pointer">
+    template: `
+    <div>
+    <div v-bind:style="{width:width+'px', display: 'flex', flexWrap: 'wrap', marginRight: '12px'}">
+     <div v-for="item in items" :key="item.id" v-on:click="$emit('update:selected-item', item)" style="cursor:pointer;">
       <slot name="itemtemplate" v-bind:item="item">{{item}}</slot>
-     </li>
-    </ul>
+     </div>
+    </div>
+    </div>
   `,
-  props: {
-    selectedItem: Object,
-    items: Array
-  }
+    props: {
+        selectedItem: Object,
+        items: Array,
+        width: Number
+    }
 }

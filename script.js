@@ -27,7 +27,8 @@ async function loadData() {
         recipe.station = stations[recipe.station];
         var resultsById = {};
         for (var result of recipe.results) {
-            items[result.item].recipe = recipe;
+            if (!items[result.item].recipe)
+                items[result.item].recipe = recipe;
             resultsById[result.item] = result.count;
         }
         recipe.results = resultsById;
@@ -64,6 +65,10 @@ Vue.component('satisfactory-item', {
     template: '#item-template',
     props: {
         items: Array,
+        itemTree: {
+            type: Array,
+            default: function() { return new Array(); }
+        },
         item: Object,
         count: Number,
         showRecipe: Boolean
@@ -74,6 +79,7 @@ Vue.component('satisfactory-recipe', {
     template: '#recipe-template',
     props: {
         items: Array,
+        itemTree: Array,
         recipe: Object,
         item: Object,
         count: Number
@@ -83,6 +89,7 @@ Vue.component('satisfactory-recipe', {
 Vue.component('satisfactory-recipe-sum', {
     template: '#recipe-sum-template',
     props: {
+        items: Array,
         item: Object,
         count: Number
     },
@@ -92,20 +99,19 @@ Vue.component('satisfactory-recipe-sum', {
         };
     },
     methods: {
-        addComponents: (item, count, source) => {
-            if (item.recipe)
-                for (var i of item.recipe.components) {
+        addComponents: (items, item, count, source, tree) => {
+            if (!item.isPrimary && item.recipe && !tree.includes(item)) {
+                tree.push(item);
+                for (var i in item.recipe.components) {
                     source = source ? source : this;
-                    if (!source.components[i.item.id]) {
-                        source.components[i.item.id] = {
-                            item: i.item,
-                            count: 0
-                        };
+                    if (!source.components[i]) {
+                        source.components[i] = 0;
                     }
-                    var cnt = i.count / item.recipe.count * count;
-                    source.components[i.item.id].count += cnt;
-                    source.addComponents(i.item, cnt, source);
+                    var cnt = item.recipe.components[i] / item.recipe.results[item.id] * count;
+                    source.components[i] += cnt;
+                    source.addComponents(items, items[i], cnt, source, Array.from(tree));
                 }
+            }
         }
     },
     watch: {
@@ -113,7 +119,7 @@ Vue.component('satisfactory-recipe-sum', {
             immediate: true,
             handler(newVal, oldVal) {
                 this.components = {};
-                this.addComponents(newVal, this.count, this);
+                this.addComponents(this.items, newVal, this.count, this, new Array());
             }
         }
     }
